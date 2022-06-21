@@ -8,12 +8,16 @@ fun main(args: Array<String>) {
 // El numero otorgsdo a la posicion empeiza desde el n° = 1
     val libroescolaruno = LibrosEscolares.getPosition(1)
     var libroescolardos = LibrosEscolares.getPosition(2)
-    var librosescolartres = LibrosEscolares.getPosition(3)
-    var librosEscolares = LibrosEscolares.getPosition(4)
+    var libroescolartres = LibrosEscolares.getPosition(3)
+    var libroescolarcuatro = LibrosEscolares.getPosition(4)
 
 
 //    Funciones exigidas
     imprimir(libroescolaruno)
+    imprimir(libroescolardos)
+    imprimir(libroescolartres)
+    imprimir(libroescolarcuatro)
+
     println(libroescolaruno.precio.precioFormateado())
 
 }
